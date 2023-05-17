@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(186, 182, 182); 
+    width: 200px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 5px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: yellowgreen; */
+    height: 60vh;
+    width: 700px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 60vh;
+    border-radius: 50%;
+    
+}
+.devinfo{
+    align-items:center;
+    margin:auto;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: xx-large;
+}
+.name{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about{
+    font-size: larger;
+}
+
+.Buttons button{
+    margin-top:10px;
+    padding: 9px 14px;
+    border-radius:22px;
+    background-color:dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.contact{
+    background-image:url(contact.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+}
+.contact h1{
+    background-color: aqua;
+    margin-top: 20px;
+    text-align: center;
+}
+.contact li{
+    margin-top: 20px;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.contact li a{
+    text-decoration: none;
+    color: rgb(52, 22, 223);
+}
+.certificates{
+    background-image: url(certificates.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+}
+.certificates li{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.certificates li a{
+    text-decoration: none;
+}
+.certificates li button{
+    border-radius: 22px;
+    font-size: 20px;
+    color:white;
+    background-color:dodgerblue;
+    cursor: pointer;
+}
+
+.certificates li button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.intro{
+    background-image: url(intro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: larger;
+    text-align: left;
+    margin:20px;
+    height: 100%;
+}
+.intro li{
+    list-style: none;
+    padding: 10px;
+}
